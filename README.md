@@ -109,11 +109,6 @@ npm run dev
 3. Click **Analyze Comments**.
 4. View insights, sentiment analysis, and trends.
 
----
-
-## 📸 Screenshots
-
-*Add some images of your UI here.*
 
 ---
 
@@ -128,3 +123,17 @@ Pull requests are welcome! If you’d like to add new features, feel free to ope
 This project is licensed under the [MIT License](./LICENSE).
 
 ---
+
+## 🧩 Workflow Diagram  
+
+```mermaid
+flowchart TD
+    A[User] -->|Enters YouTube URL| B[Frontend - React]
+    B -->|API Request| C[Backend - Node/Express]
+    C -->|Fetch Comments| D[YouTube Data API]
+    D --> C
+    C -->|Send Comments| E[Gemini / AI Model]
+    E --> C
+    C -->|Processed Insights| B
+    B -->|Display Results| A
+
