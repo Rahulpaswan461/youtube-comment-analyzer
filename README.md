@@ -1,5 +1,12 @@
 # YouTube Comment Analyzer 🎥💬
 
+[![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
+[![Node.js](https://img.shields.io/badge/Node.js-18.x-brightgreen?logo=node.js)](https://nodejs.org/)
+[![React](https://img.shields.io/badge/React-18-blue?logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)](https://www.typescriptlang.org/)
+[![YouTube API](https://img.shields.io/badge/API-YouTube-red?logo=youtube)](https://developers.google.com/youtube/v3)
+[![Gemini](https://img.shields.io/badge/AI-Gemini-purple?logo=google)](https://ai.google/)
+
 A web app that fetches and analyzes YouTube video comments to provide insights like sentiment, trends, and useful summaries.
 
 ---
@@ -104,7 +111,7 @@ npm run dev
 
 ---
 
-## 📸 Screenshots (optional)
+## 📸 Screenshots
 
 *Add some images of your UI here.*
 
@@ -118,6 +125,6 @@ Pull requests are welcome! If you’d like to add new features, feel free to ope
 
 ## 📜 License
 
-MIT License – free to use and modify.
+This project is licensed under the [MIT License](./LICENSE).
 
 ---
