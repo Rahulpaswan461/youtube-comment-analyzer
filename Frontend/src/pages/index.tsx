@@ -55,7 +55,7 @@ const Index = () => {
     setIsAnalyzing(true);
 
     try {
-      const response = await axios.post("http://localhost:3000/api/comments/analyze",{url}) 
+      const response = await axios.post("https://youtube-comment-analyzer-1-vb72.onrender.com/api/comments/analyze",{url}) 
       console.log("response from api: ", response.data)
 
       const { suggestions, ...rest } = response.data
