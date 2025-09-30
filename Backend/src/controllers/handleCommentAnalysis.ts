@@ -22,7 +22,6 @@ export const handleCommentAnalysis = async (req: Request, res: Response) => {
 
         console.log("✅ Comments fetched successfully", comments.length);
         const analysis = await analyzeComments(comments, videoTitle);
-        console.log("📊 Analysis Result:", JSON.stringify(analysis, null, 2));
         return res.json(analysis)
     }
     catch (error) {
